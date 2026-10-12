@@ -1,0 +1,11 @@
+[project]
+name = "homework-formatter"
+version = "0.1.0"
+description = "把学生交的 Word 作业批量改成学校要求的格式"
+requires-python = ">=3.10"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["src"]
+# -rs：有检查被跳过时列出原因，免得"全部通过"其实是"一大半没跑"
+addopts = "-q -rs"

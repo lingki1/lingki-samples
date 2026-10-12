@@ -1,0 +1,15 @@
+# 学生的个人信息和作业不进存档
+学生作业/
+排版结果/
+名单.xlsx
+老师的决定.xlsx
+
+# 运行环境和缓存
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Word / LibreOffice 打开文件时留下的临时文件
+~$*
+.~lock.*
